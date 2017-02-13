@@ -1,0 +1,1 @@
+include ':app', ':com.desarrollodroide.libraryfragmenttransactionextended', ':com.inqbarna.tablefixheaders'

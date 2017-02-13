@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Colour Memory</string>
+    <string name="score_0">SCORE: 0</string>
+    <string name="_1">-1</string>
+    <string name="color_memory">Color Memory</string>
+    <string name="plus2">+2</string>
+    <string name="minus1">-1</string>
+    <string name="Username">Username...</string>
+    <string name="game_over">Game Over!</string>
+    <string name="high_score">HIGH SCORE</string>
+    <string name="there_no_any_record_s_yet_be_the_first_one">There no any record(s) yet. Be the first one!</string>
+</resources>

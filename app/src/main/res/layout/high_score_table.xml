@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <com.inqbarna.tablefixheaders.TableFixHeaders
+        android:id="@+id/tableHighScore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/imageButtonHome"
+        android:layout_above="@+id/imageButtonClose" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/high_score"
+        android:id="@+id/textViewHeaderHighScore"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonClose"
+        android:src="@drawable/ic_power"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        android:background="@null"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/there_no_any_record_s_yet_be_the_first_one"
+        android:id="@+id/textViewEmtyTable"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewLogoHighScore"
+        android:src="@drawable/logo"
+        android:paddingLeft="-13dp"
+        android:scaleType="fitStart"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textViewHeaderHighScore"
+        android:layout_toStartOf="@+id/textViewHeaderHighScore" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonHome"
+        android:src="@drawable/ic_home_variant"
+        android:background="@null"
+        android:layout_alignTop="@+id/textViewHeaderHighScore"
+        android:layout_alignLeft="@+id/tableHighScore"
+        android:layout_alignStart="@+id/tableHighScore" />
+
+
+</RelativeLayout>
